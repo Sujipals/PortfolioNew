@@ -204,7 +204,7 @@ header {
 /* Contact Section Icons */
 #contact .icon {
     margin-right: 8px;
-    color: #0077b5; /* LinkedIn blue for all contact icons */
+    color: cadetblue; /* LinkedIn blue for all contact icons */
     vertical-align: middle;
 }
 
