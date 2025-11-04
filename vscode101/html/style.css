@@ -215,8 +215,29 @@ header {
 }
 
     #contact a:hover {
-        text-decoration: underline;
+        text-decoration: underline;/* Hover effect for links */
     }
+
+.contact-container {        /* New container for contact section */
+display: flex;              /* Flexbox layout */
+flex-wrap: wrap;            /* Wrap on smaller screens */
+justify-content: center;    /* Center content */
+gap: 2rem;                  /* Space between items */
+margin-top: 1rem;           /* Top margin for spacing */
+}
+
+.contact-container p
+{
+    display: flex;
+    align-items: center;    /* Center icon and text vertically */
+    margin: 0;
+}
+
+.contact-container .icon {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    color: cadetblue;/* Consistent icon color */
+}
 
 
 .resume-btn {
